@@ -18,7 +18,7 @@ import ModularHeaderBackButton from './ModularHeaderBackButton';
 import HeaderStyleInterpolator from './HeaderStyleInterpolator';
 import withOrientation from '../withOrientation';
 
-const APPBAR_HEIGHT = Platform.OS === 'ios' ? 44 : 56;
+const APPBAR_HEIGHT = Platform.OS === 'ios' ? 60 : 56;
 const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 50 : 0;
 const TITLE_OFFSET = Platform.OS === 'ios' ? 70 : 56;
 
