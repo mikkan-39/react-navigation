@@ -19,7 +19,7 @@ import HeaderStyleInterpolator from './HeaderStyleInterpolator';
 import withOrientation from '../withOrientation';
 
 const APPBAR_HEIGHT = Platform.OS === 'ios' ? 60 : 56;
-const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 50 : 0;
+const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 50 : 50;
 const TITLE_OFFSET = Platform.OS === 'ios' ? 70 : 56;
 
 const getAppBarHeight = isLandscape => {
