@@ -18,9 +18,9 @@ import ModularHeaderBackButton from './ModularHeaderBackButton';
 import HeaderStyleInterpolator from './HeaderStyleInterpolator';
 import withOrientation from '../withOrientation';
 
-const APPBAR_HEIGHT = Platform.OS === 'ios' ? 60 : 56;
+const APPBAR_HEIGHT = Platform.OS === 'ios' ? 56 : 50;
 const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 50 : 50;
-const TITLE_OFFSET = Platform.OS === 'ios' ? 70 : 56;
+const TITLE_OFFSET = Platform.OS === 'ios' ? 70 : 50;
 
 const getAppBarHeight = isLandscape => {
   return APPBAR_HEIGHT + STATUSBAR_HEIGHT
